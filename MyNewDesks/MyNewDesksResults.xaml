@@ -1,0 +1,58 @@
+﻿<Page x:Class="MyNewDesks.MyNewDesksResults"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyNewDesks"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="700"
+      Title="MyNewDesks - Results">
+
+    <Grid>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="1,0,-1,665"/>
+        <Label x:Name="label" Content="RESULTS" HorizontalAlignment="Left" Margin="316,-2,0,0" VerticalAlignment="Top" Width="281" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="Black" FontWeight="Bold"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,61,410,604"/>
+        <Label x:Name="label_Copy" Content="Name" HorizontalAlignment="Left" Margin="117,59,0,0" VerticalAlignment="Top" Width="88" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,117,410,548"/>
+        <Label x:Name="label_Copy1" Content="Width" HorizontalAlignment="Left" Margin="117,115,0,0" VerticalAlignment="Top" Width="88" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,172,410,493"/>
+        <Label x:Name="label_Copy2" Content="Length" HorizontalAlignment="Left" Margin="117,170,0,0" VerticalAlignment="Top" Width="88" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,233,410,432"/>
+        <Label x:Name="label_Copy3" Content="Area" HorizontalAlignment="Left" Margin="117,231,0,0" VerticalAlignment="Top" Width="88" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,293,410,372"/>
+        <Label x:Name="label_Copy4" Content="Wood Type" HorizontalAlignment="Left" Margin="117,291,0,0" VerticalAlignment="Top" Width="158" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,356,410,309"/>
+        <Label x:Name="label_Copy5" Content="No. of Drawers" HorizontalAlignment="Left" Margin="117,354,0,0" VerticalAlignment="Top" Width="173" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,475,410,190"/>
+        <Label x:Name="label_Copy6" Content="Price of Desk" HorizontalAlignment="Left" Margin="117,473,0,0" VerticalAlignment="Top" Width="173" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,538,410,127"/>
+        <Label x:Name="label_Copy7" Content="Shipping Cost" HorizontalAlignment="Left" Margin="117,536,0,0" VerticalAlignment="Top" Width="173" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,593,410,72"/>
+        <Label x:Name="label_Copy8" Content="Total Price" HorizontalAlignment="Left" Margin="117,591,0,0" VerticalAlignment="Top" Width="173" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,61,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="nameLabel" Content="Label" HorizontalAlignment="Left" Margin="404,61,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,115,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="widthLabel" Content="Label" HorizontalAlignment="Left" Margin="404,115,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="lengthLabel" Content="Label" HorizontalAlignment="Left" Margin="404,170,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,233,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="areaLabel" Content="Label" HorizontalAlignment="Left" Margin="404,233,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,293,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="woodLabel" Content="Label" HorizontalAlignment="Left" Margin="404,293,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,356,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="drawerLabel" Content="Label" HorizontalAlignment="Left" Margin="404,356,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,475,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="priceLabel" Content="Label" HorizontalAlignment="Left" Margin="404,475,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,538,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="shippingLabel" Content="Label" HorizontalAlignment="Left" Margin="404,538,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,593,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="totalLabel" Content="Label" HorizontalAlignment="Left" Margin="404,593,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Border Height="35" Padding="5" Background="#4E87D4" Margin="117,415,410,250"/>
+        <Label x:Name="label_Copy9" Content="Type of Shipment" HorizontalAlignment="Left" Margin="117,413,0,0" VerticalAlignment="Top" Width="173" FontFamily="{DynamicResource {x:Static SystemFonts.CaptionFontFamilyKey}}" FontSize="20" Foreground="#FF010404"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35" Margin="385,415,0,0" Stroke="Black" VerticalAlignment="Top" Width="220"/>
+        <Label x:Name="daysLabel" Content="Label" HorizontalAlignment="Left" Margin="404,415,0,0" VerticalAlignment="Top" Height="35" Width="172" FontSize="20"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="watermark2.jpg" />
+        </Grid.Background>
+    </Grid>
+</Page>
